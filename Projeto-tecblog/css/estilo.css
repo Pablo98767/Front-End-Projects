@@ -1,0 +1,193 @@
+
+
+/*Formataçãoes Padrões*/
+*{
+ margin: 0px;
+ padding: 0px;
+}
+/*Fim da formatação padrão*/
+
+body{
+ font-size: 1em;
+ font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+background-color:rgb(207, 205, 205);
+}
+
+/*Todo Layout*/
+
+#cabecalho {
+
+    background-color:rgb(1, 119, 236);
+    padding: 27px;
+    text-align: center;
+ 
+}
+
+#logo,#menu{
+    padding: -10px;
+   
+  }
+
+
+  #logo{
+    margin-left: -1000px;
+    margin-top: 55px;
+    transition: 0.25s 0.1s cubic-bezier(0, 1.07, 0, 1.02);
+  }
+
+
+  #menu{
+    margin-top: -30px;
+    margin-left: 400px;
+    transition: 0.25s 0.1s cubic-bezier(0, 1.07, 0, 1.02);
+
+  }
+
+ 
+ 
+  h1{
+  
+      color:rgb(241, 245, 245);
+  }
+
+
+  h2 {
+
+    color:rgb(76, 103, 253);;
+ }
+
+
+ h3 {
+
+  color:rgb(76, 103, 253);
+
+  padding: 5px;
+}
+
+
+
+  .braco{
+    color: rgb(2, 21, 129);
+
+  }
+
+
+
+
+  /*Formatação do menu*/
+
+ a:link,  a:visited{
+  color: rgb(18, 71, 245);
+  
+
+   
+  
+}
+
+  a:hover{
+  text-decoration: underline;
+  transition: 0.5s;
+  
+}
+  #cabecalho a:link, #cabecalho a:visited{
+      color: rgb(230, 230, 230);
+      padding: 8px 40px;
+
+     
+    
+  }
+
+  #cabecalho a:hover{
+    color: rgb(4, 33, 199);
+    text-decoration: none;
+  
+    
+  }
+
+  a {
+    text-decoration: none;
+    font-size: -15px;
+    
+  }
+/*Fim da formatação do menu*/
+
+
+
+
+
+
+
+
+/*Formatação da area principal*/
+
+  #area-principal{
+
+    
+    width: 925px;
+    margin: 0 auto;
+    padding: 20px;
+    
+  }
+
+  #area-postagens{
+    width: 660px;
+    background: rgb(182, 172, 172);
+    float: left;
+
+  }
+
+  .postagem{
+    padding: 20px;
+    margin-bottom: 20px;
+    background: #FFF;
+  }
+
+  
+  #area-lateral{
+    width: 240px;
+    background: rgb(27, 26, 26);
+    float: right;
+  }
+
+
+.conteudo-lateral{
+  background-color: #cec6c6;
+  padding: 10px;
+  margin-bottom: 20px;
+}
+
+
+  /*Rodapé*/
+
+
+  #rodape{
+   clear: both;
+   text-align: center;
+   background: rgb(156, 153, 153);
+   padding: 15px;
+   
+
+  }
+
+.data-postagem{
+
+  font-size: 0.8em;
+  border-bottom:1px solid #cec6c6;
+  padding-bottom: 10px;
+  margin-bottom: 10px;
+  display: block;
+  
+}
+
+.texto1{
+
+  color: rgb(56, 54, 54);
+}
+
+
+.texto-lateral{
+  font-size: 0.8em;
+  padding: 5px;
+  
+
+}
